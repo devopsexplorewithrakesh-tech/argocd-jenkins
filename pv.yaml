@@ -11,5 +11,5 @@ spec:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Delete
   nfs:
-    server: 192.168.0.200
+    server: 10.226.172.3
     path: "/var/nfs/jenkins"
